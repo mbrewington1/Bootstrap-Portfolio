@@ -1,0 +1,84 @@
+/*styling for index*/
+h1 {
+    background-color: #4aaaa5 !important;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 25px;
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+body {
+    margin-bottom: 50px;
+    height: 100%;
+    background-image: url(../images/just-waves.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer{
+    background-color: #4aaaa5;
+    border-top: 5px solid #777777 !important;
+    position: fixed;
+    font-size: 12px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: block;
+}
+
+/*Styling for Portfolio*/
+.pics {
+    position: relative;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid red;
+    border-radius: .30rem;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+.pics-img-overlay{
+    position: absolute !important;
+   }
+.text-center {
+    text-align: center !important;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.pics-label {
+    position: absolute;
+    top: 60%;
+    height: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+/*Styling for Contact*/
+.m-auto{
+    margin: auto !important;
+}
+h1 {
+    background-color: #4aaaa5 !important;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 25px;
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
