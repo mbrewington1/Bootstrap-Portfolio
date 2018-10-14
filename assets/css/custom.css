@@ -52,13 +52,14 @@ footer{
 .w-100 {
     width: 100% !important;
 }
-.pics-label {
+.pics-img-overlay {
     position: absolute;
-    top: 60%;
+    top: 80%;
     height: 30px;
     background-color: #4aaaa5;
     color: #ffffff;
     line-height: 30px;
+    width:100%;
 }
 
 /*Styling for Contact*/
@@ -77,7 +78,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
-.navbar>.container, .navbar>.container-fluid {
+.navbar.container, .navbar.container-fluid {
     display: flex;
     align-items: center;
     justify-content: space-between;
